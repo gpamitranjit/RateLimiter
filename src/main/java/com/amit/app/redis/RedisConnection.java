@@ -1,4 +1,4 @@
-package com.redislabs.metering.ratelimiter;
+package com.amit.app.redis;
 
 import redis.clients.jedis.Jedis;
 
@@ -9,10 +9,10 @@ import redis.clients.jedis.Jedis;
 public class RedisConnection
 {
 	// The IP address/URL of the machine where Redis is running
-	private static final String URL = "192.168.99.100";
+	private static final String URL = "localhost";
 	
 	// Redis port. This program assumes there's no authentication set on Redis.
-	private static final int PORT = 32769;
+	private static final int PORT = 6379;
 	
 	private Jedis jedis = null;
 	

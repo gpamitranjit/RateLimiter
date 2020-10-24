@@ -1,4 +1,4 @@
-package com.redislabs.metering.ratelimiter;
+package com.amit.app.redis;
 
 import redis.clients.jedis.Jedis;
 

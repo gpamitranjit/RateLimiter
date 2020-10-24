@@ -1,4 +1,4 @@
-package com.redislabs.metering.ratelimiter;
+package com.amit.app.redis;
 
 import java.util.Properties;
 
@@ -64,7 +64,7 @@ public class RateLimiterMain{
 	private static void burstyRateLimiterTest() throws Exception{
 		Properties props = new Properties();
 		
-		props.setProperty("type", "allow_burst_traffic");
+		props.setProperty("type", "bursty");
 		props.setProperty("window", "5");
 		props.setProperty("actions", "2");
 				

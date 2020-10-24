@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.amit.app</groupId>
+  <artifactId>redis-with-jedis-connector</artifactId>
+  <version>0.0.1-RELEASE</version>
+  <name>RateLimiter-with-Redis</name>
+  <description>RateLimiter examle with Redis jedis connector</description>
+  
+  <dependencies>
+  	<!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+	<dependency>
+	    <groupId>redis.clients</groupId>
+	    <artifactId>jedis</artifactId>
+	    <version>2.9.0</version>
+	</dependency>  	
+  </dependencies>
+</project>
